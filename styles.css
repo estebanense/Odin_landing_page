@@ -1,6 +1,9 @@
 :root{
     --dark-color: #1f2937;
     --cyan: #3882f6;
+    --whitefont: #f9faf8;
+    --grayback: #e5e7eb;
+
 }
 
 *{
@@ -20,7 +23,7 @@ body{
 header{
     display: flex;
     background-color:var(--dark-color);
-    color: #f9faf8;
+    color: var(--whitefont);
     font-size: 18px;
     justify-content: space-between;
     align-items: center;
@@ -34,7 +37,7 @@ header ul {
 
 a{
     text-decoration: none;
-    color: #f9faf8;
+    color: var(--whitefont);
 }
 
 .logo{
@@ -50,7 +53,7 @@ a{
 
 .hero_section{
     background-color: var(--dark-color);
-    color: #f9faf8;
+    color: var(--whitefont);
 }
 .hero_box{
     display: flex;
@@ -86,7 +89,7 @@ img{
 button{
     padding: 8px 20px;
     background-color: var(--cyan) ;
-    color: #f9faf8;
+    color: var(--whitefont);
     border-radius: 5px;
     border: solid 2px var(--dark-color);
     font-size: 18px;
@@ -95,7 +98,7 @@ button{
     transition-duration: 0.4s;
 }
   button:hover {
-    background-color: #f9faf8;
+    background-color: var(--whitefont);
     color:#3882f6;
   }
 .info_section{
@@ -103,7 +106,7 @@ button{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: #f9faf8;
+    background-color: var(--whitefont);
     color: #1f2937;
     padding: 60px 0;
 }
@@ -134,7 +137,7 @@ button{
     display: flex;
     text-align: center;
     justify-content: center;
-    background-color: #e5e7eb;
+    background-color: var(--grayback);
     color: #1f2937;
     font-size: 32px;
     font-style:italic;
@@ -160,14 +163,14 @@ button{
 .action_section{
     display: flex;
     justify-content: center;
-    background-color: #f9faf8;
-    color: #e5e7eb;
+    background-color: var(--whitefont);
+    color: var(--grayback);
     padding: 60px;
     font-size: 18px;
 }
 .action_section .card {
     background-color: var(--cyan);
-    color:#f9faf8;
+    color:var(--whitefont);
     width: 1000px;
     border-radius: 15px;
     display: flex;
@@ -178,7 +181,7 @@ button{
     padding: 0 60px;
 }
 .card button{
-    border: solid 2px white;
+    border: solid 2px var(--whitefont);
     margin: 0 40px;
    
     
@@ -189,7 +192,7 @@ footer{
     display: flex;
     background-color: var(--dark-color);
     text-align: center;
-    color: #f9faf8;
+    color: var(--whitefont);
     justify-content: center;
     padding: 30px;
 }
