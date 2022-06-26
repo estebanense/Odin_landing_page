@@ -1,5 +1,5 @@
 :root,
-:root.scotland{
+:root.sea{
     --dark-color: #1f2937;
     --cyan: #3882f6;
     --whitefont: #f9faf8;
@@ -8,6 +8,19 @@
 :root.wine{
     --dark-color: #611f2c;
     --cyan: #f15071;
+    --whitefont: #f9faf8;
+    --grayback: #e5e7eb;
+}
+:root.jade{
+    --dark-color: #173f5f;
+    --cyan: #3caea3;
+    --whitefont: #f9faf8;
+    --grayback: #e5e7eb;
+}
+
+:root.mustard{
+    --dark-color: #78350f;
+    --cyan: #f59e0b;
     --whitefont: #f9faf8;
     --grayback: #e5e7eb;
 }
@@ -139,6 +152,7 @@ button{
     flex: 1;
     cursor: pointer; 
     transition-duration: 0.4s;
+    margin-bottom: 5px;
 }
 
 .card_body:hover{
