@@ -142,9 +142,9 @@ button{
     width: 200px;
     height: 200px;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
+
 
 .card_body{
     border: solid 5px var(--cyan);
@@ -160,6 +160,14 @@ button{
 
 }
 
+.card_body img{
+    display: flex;
+    margin: auto;
+    padding: 6px;
+    border-radius: 10px;
+    
+    
+}
 .quote_section{
     display: flex;
     text-align: center;
