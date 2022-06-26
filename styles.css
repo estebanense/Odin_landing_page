@@ -1,9 +1,15 @@
-:root{
+:root,
+:root.scotland{
     --dark-color: #1f2937;
     --cyan: #3882f6;
     --whitefont: #f9faf8;
     --grayback: #e5e7eb;
-
+}
+:root.wine{
+    --dark-color: #611f2c;
+    --cyan: #f15071;
+    --whitefont: #f9faf8;
+    --grayback: #e5e7eb;
 }
 
 *{
@@ -131,6 +137,13 @@ button{
     border: solid 5px var(--cyan);
     border-radius: 8px;
     flex: 1;
+    cursor: pointer; 
+    transition-duration: 0.4s;
+}
+
+.card_body:hover{
+    transform: scale(1.02);
+
 }
 
 .quote_section{
