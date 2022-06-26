@@ -131,20 +131,13 @@ button{
 }
 
 
-.info_section_card_box{
+.card_box{
     display: flex;
     justify-content: center;
     gap: 20px;
     padding-top: 40px;
     flex-wrap: wrap;
 }
-.info_section .card{
-    width: 200px;
-    height: 200px;
-    display: flex;
-    flex-direction: column; 
-}
-
 
 .card_body{
     border: solid 5px var(--light_color);
@@ -158,6 +151,22 @@ button{
 .card_body:hover{
     transform: scale(1.02);
 
+}
+
+.mustard .mustards{
+    transform: scale(1.05)
+}
+
+.wine .wines{
+    transform: scale(1.05)
+}
+
+.jade .jades{
+    transform: scale(1.05)
+}
+
+.sea .seas{
+    transform: scale(1.05)
 }
 
 .card_body img{
